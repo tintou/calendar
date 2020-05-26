@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: elementary/actions/gettext-template@master
+    - uses: tintou/actions/gettext-template@master
       env:
         GIT_USER_TOKEN: "${{ secrets.GIT_USER_TOKEN }}"
         GIT_USER_NAME: "elementaryBot"
